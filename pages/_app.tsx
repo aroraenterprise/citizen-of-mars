@@ -19,7 +19,12 @@ export default function MyApp(props: AppProps) {
   return (
     <React.Fragment>
       <Head>
-        <title>My page</title>
+        <title>Citizens of Mars</title>
+        <meta property="og:title" content="Citizen of Mars" />
+        <meta property="og:description" content="Settle Mars and help shape a new society" />
+        <meta property="og:image" content="https://citizen-of-mars.vercel.app/feature.jpg" />
+        <meta property="og:url" content="https://citizen-of-mars.vercel.app" />
+        <meta name="twitter:card" content="summary_large_image" />
         <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
       </Head>
       <ThemeProvider theme={theme}>
